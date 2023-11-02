@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2122CC52ADF1ABF00A7A029 /* King_CrawlersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2122CC42ADF1ABF00A7A029 /* King_CrawlersApp.swift */; };
+		F2122CC72ADF1ABF00A7A029 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2122CC62ADF1ABF00A7A029 /* ContentView.swift */; };
+		F2122CC92ADF1ABF00A7A029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2122CC82ADF1ABF00A7A029 /* Assets.xcassets */; };
+		F2122CCC2ADF1ABF00A7A029 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2122CCB2ADF1ABF00A7A029 /* Preview Assets.xcassets */; };
+		F2122CD82ADF2DF500A7A029 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2122CD72ADF2DF500A7A029 /* SideMenu.swift */; };
+		F2122CDA2ADF2EF100A7A029 /* SideMenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2122CD92ADF2EF100A7A029 /* SideMenuContent.swift */; };
+		F218A8AC2AE040A300535B7F /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218A8AB2AE040A300535B7F /* LocationsDataService.swift */; };
+		F218A8AF2AE0425200535B7F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218A8AE2AE0425200535B7F /* Location.swift */; };
+		F218A8B22AE0538200535B7F /* TrailLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218A8B12AE0538200535B7F /* TrailLocationView.swift */; };
+		F24844272AE09FD700AB4FA6 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24844262AE09FD700AB4FA6 /* LocationsListView.swift */; };
+		F26E844B2AE2FADA006552B2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26E844A2AE2FADA006552B2 /* LoginView.swift */; };
+		F26E844E2AE3031F006552B2 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26E844D2AE3031F006552B2 /* InputView.swift */; };
+		F27F5BBF2ADF434000286A22 /* LocationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5BBE2ADF434000286A22 /* LocationMenu.swift */; };
+		F27F5BC12ADF435500286A22 /* LocationMenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5BC02ADF435500286A22 /* LocationMenuContent.swift */; };
+		F27F5BC32ADF48C500286A22 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5BC22ADF48C500286A22 /* MapView.swift */; };
+		F27F5BC52ADF4A4000286A22 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5BC42ADF4A4000286A22 /* LocationView.swift */; };
+		F28353C62AE1966B00466947 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28353C52AE1966B00466947 /* LocationPreviewView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2122CC12ADF1ABF00A7A029 /* King Crawlers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "King Crawlers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2122CC42ADF1ABF00A7A029 /* King_CrawlersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = King_CrawlersApp.swift; sourceTree = "<group>"; };
+		F2122CC62ADF1ABF00A7A029 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2122CC82ADF1ABF00A7A029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2122CCB2ADF1ABF00A7A029 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2122CD72ADF2DF500A7A029 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		F2122CD92ADF2EF100A7A029 /* SideMenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuContent.swift; sourceTree = "<group>"; };
+		F218A8AB2AE040A300535B7F /* LocationsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		F218A8AE2AE0425200535B7F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F218A8B12AE0538200535B7F /* TrailLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailLocationView.swift; sourceTree = "<group>"; };
+		F24844262AE09FD700AB4FA6 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		F26E844A2AE2FADA006552B2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F26E844D2AE3031F006552B2 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		F27F5BBE2ADF434000286A22 /* LocationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMenu.swift; sourceTree = "<group>"; };
+		F27F5BC02ADF435500286A22 /* LocationMenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMenuContent.swift; sourceTree = "<group>"; };
+		F27F5BC22ADF48C500286A22 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F27F5BC42ADF4A4000286A22 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		F28353C52AE1966B00466947 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2122CBE2ADF1ABF00A7A029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2122CB82ADF1ABF00A7A029 = {
+			isa = PBXGroup;
+			children = (
+				F2122CC32ADF1ABF00A7A029 /* King Crawlers */,
+				F2122CC22ADF1ABF00A7A029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2122CC22ADF1ABF00A7A029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2122CC12ADF1ABF00A7A029 /* King Crawlers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2122CC32ADF1ABF00A7A029 /* King Crawlers */ = {
+			isa = PBXGroup;
+			children = (
+				F2122CC42ADF1ABF00A7A029 /* King_CrawlersApp.swift */,
+				F26E84462AE2F9D8006552B2 /* App */,
+				F26E84482AE2FA08006552B2 /* Login */,
+				F21AD0FD2AE17E2C00647DA5 /* Trails */,
+				F21AD1022AE1800B00647DA5 /* MapView */,
+				F27F5BBD2ADF42F400286A22 /* Location */,
+				F27F5BBC2ADF42AF00286A22 /* SideMenu */,
+				F2122CC82ADF1ABF00A7A029 /* Assets.xcassets */,
+				F2122CCA2ADF1ABF00A7A029 /* Preview Content */,
+			);
+			path = "King Crawlers";
+			sourceTree = "<group>";
+		};
+		F2122CCA2ADF1ABF00A7A029 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2122CCB2ADF1ABF00A7A029 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F21AD0FD2AE17E2C00647DA5 /* Trails */ = {
+			isa = PBXGroup;
+			children = (
+				F21AD1002AE17E7800647DA5 /* Models */,
+				F21AD0FE2AE17E4C00647DA5 /* Views */,
+				F21AD0FF2AE17E5800647DA5 /* ViewModels */,
+				F21AD1012AE17EA500647DA5 /* DataServices */,
+			);
+			path = Trails;
+			sourceTree = "<group>";
+		};
+		F21AD0FE2AE17E4C00647DA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F27F5BC42ADF4A4000286A22 /* LocationView.swift */,
+				F24844262AE09FD700AB4FA6 /* LocationsListView.swift */,
+				F28353C52AE1966B00466947 /* LocationPreviewView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F21AD0FF2AE17E5800647DA5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F218A8B12AE0538200535B7F /* TrailLocationView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F21AD1002AE17E7800647DA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F218A8AE2AE0425200535B7F /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F21AD1012AE17EA500647DA5 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				F218A8AB2AE040A300535B7F /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		F21AD1022AE1800B00647DA5 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				F21AD1032AE1801B00647DA5 /* Models */,
+				F21AD1042AE1802500647DA5 /* Views */,
+				F21AD1052AE1802C00647DA5 /* ViewModels */,
+				F21AD1062AE1803500647DA5 /* DataServices */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		F21AD1032AE1801B00647DA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F21AD1042AE1802500647DA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F21AD1052AE1802C00647DA5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F21AD1062AE1803500647DA5 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		F26E84462AE2F9D8006552B2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F26E84472AE2F9EB006552B2 /* Root */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F26E84472AE2F9EB006552B2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F2122CC62ADF1ABF00A7A029 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F26E84482AE2FA08006552B2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F26E844C2AE302FF006552B2 /* Components */,
+				F26E84492AE2FA87006552B2 /* Authentication */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F26E84492AE2FA87006552B2 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F26E844A2AE2FADA006552B2 /* LoginView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F26E844C2AE302FF006552B2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F26E844D2AE3031F006552B2 /* InputView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F27F5BBC2ADF42AF00286A22 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F2122CD92ADF2EF100A7A029 /* SideMenuContent.swift */,
+				F2122CD72ADF2DF500A7A029 /* SideMenu.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		F27F5BBD2ADF42F400286A22 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				F27F5BBE2ADF434000286A22 /* LocationMenu.swift */,
+				F27F5BC02ADF435500286A22 /* LocationMenuContent.swift */,
+				F27F5BC22ADF48C500286A22 /* MapView.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2122CC02ADF1ABF00A7A029 /* King Crawlers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2122CCF2ADF1ABF00A7A029 /* Build configuration list for PBXNativeTarget "King Crawlers" */;
+			buildPhases = (
+				F2122CBD2ADF1ABF00A7A029 /* Sources */,
+				F2122CBE2ADF1ABF00A7A029 /* Frameworks */,
+				F2122CBF2ADF1ABF00A7A029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "King Crawlers";
+			productName = "King Crawlers";
+			productReference = F2122CC12ADF1ABF00A7A029 /* King Crawlers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2122CB92ADF1ABF00A7A029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F2122CC02ADF1ABF00A7A029 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F2122CBC2ADF1ABF00A7A029 /* Build configuration list for PBXProject "King Crawlers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2122CB82ADF1ABF00A7A029;
+			productRefGroup = F2122CC22ADF1ABF00A7A029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2122CC02ADF1ABF00A7A029 /* King Crawlers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2122CBF2ADF1ABF00A7A029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2122CCC2ADF1ABF00A7A029 /* Preview Assets.xcassets in Resources */,
+				F2122CC92ADF1ABF00A7A029 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2122CBD2ADF1ABF00A7A029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27F5BC32ADF48C500286A22 /* MapView.swift in Sources */,
+				F218A8B22AE0538200535B7F /* TrailLocationView.swift in Sources */,
+				F27F5BC52ADF4A4000286A22 /* LocationView.swift in Sources */,
+				F218A8AF2AE0425200535B7F /* Location.swift in Sources */,
+				F2122CD82ADF2DF500A7A029 /* SideMenu.swift in Sources */,
+				F28353C62AE1966B00466947 /* LocationPreviewView.swift in Sources */,
+				F2122CDA2ADF2EF100A7A029 /* SideMenuContent.swift in Sources */,
+				F2122CC72ADF1ABF00A7A029 /* ContentView.swift in Sources */,
+				F26E844B2AE2FADA006552B2 /* LoginView.swift in Sources */,
+				F27F5BBF2ADF434000286A22 /* LocationMenu.swift in Sources */,
+				F2122CC52ADF1ABF00A7A029 /* King_CrawlersApp.swift in Sources */,
+				F24844272AE09FD700AB4FA6 /* LocationsListView.swift in Sources */,
+				F26E844E2AE3031F006552B2 /* InputView.swift in Sources */,
+				F27F5BC12ADF435500286A22 /* LocationMenuContent.swift in Sources */,
+				F218A8AC2AE040A300535B7F /* LocationsDataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F2122CCD2ADF1ABF00A7A029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2122CCE2ADF1ABF00A7A029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2122CD02ADF1ABF00A7A029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"King Crawlers/Preview Content\"";
+				DEVELOPMENT_TEAM = 234DW6V72V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "King Crawlers";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This App need your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ExiledStudio.King-Crawlers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2122CD12ADF1ABF00A7A029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"King Crawlers/Preview Content\"";
+				DEVELOPMENT_TEAM = 234DW6V72V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "King Crawlers";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This App need your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ExiledStudio.King-Crawlers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2122CBC2ADF1ABF00A7A029 /* Build configuration list for PBXProject "King Crawlers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2122CCD2ADF1ABF00A7A029 /* Debug */,
+				F2122CCE2ADF1ABF00A7A029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2122CCF2ADF1ABF00A7A029 /* Build configuration list for PBXNativeTarget "King Crawlers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2122CD02ADF1ABF00A7A029 /* Debug */,
+				F2122CD12ADF1ABF00A7A029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2122CB92ADF1ABF00A7A029 /* Project object */;
+}
