@@ -93,7 +93,7 @@ URL:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [X] Version 1.0 (Current Verison)
+- [ ] Version 1.0 (Test Launch)
 
   - [ ] Trails View Page.
   - [ ] List of trails for initial T&E release.
