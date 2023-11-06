@@ -360,7 +360,7 @@ Project Link: [https://github.com/CodySly/King-Crawlers-App](https://github.com/
 
 # Application Project Disclaimer
 
-**Note:** This disclaimer is intended to inform users of our application (the "Application") about its limitations, responsibilities, and use. By using the Application, you agree to abide by the terms outlined in this disclaimer. If you do not agree with these terms, please refrain from using the Application.
+**Note:** This disclaimer is intended to inform users of our application (the "King Crawler App") about its limitations, responsibilities, and use. By using the Application, you agree to abide by the terms outlined in this disclaimer. If you do not agree with these terms, please refrain from using the Application.
 
 ## No Warranties
 
@@ -397,11 +397,13 @@ This disclaimer shall be governed by and construed in accordance with the laws o
 
 ## Contact
 
-If you have any questions, concerns, or feedback regarding this disclaimer or the Application, please contact us at [Your Contact Information].
+If you have any questions, concerns, or feedback regarding this disclaimer or the Application, please contact us at. <p align="left">(<a href="#contact">Contact</a>)</p>
 
 [End of Disclaimer]
 
 By using the Application, you acknowledge and agree to the terms and conditions outlined in this disclaimer. Your use of the Application is subject to these terms, and any disputes arising from such use shall be governed by the applicable laws of your jurisdiction.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
