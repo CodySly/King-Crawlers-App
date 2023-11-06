@@ -64,7 +64,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-  The King Crawlers App is designed to provide a seamless experience for 4x4 Rock Crawling Enthusiasts who want to explore the Registered Trails offered in the state of Utah "Currently". The King Crawler App is looking to provide users with a Map Location Base Service for you to navigate to one of many trails provided. Other features being add Personlized account profile, message system, individual/group tracking, picture uploading, video uploading, manage accounts.
+  The King Crawlers App is designed to provide a seamless experience for 4x4 Rock Crawling Enthusiasts who want to explore the Registered Trails offered in the state of Utah "Currently". The King Crawler App is looking to provide users with a Map Location Base Service for you to navigate to one of many trails provided. Other features being add Personlized profile, message system, individual/group tracking, picture uploading, video uploading, friends and account management.
 
 
 
@@ -263,7 +263,7 @@ Remember that you'll need to repeat these steps each time you update the app in 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The King Crawlers App is designed to provide a seamless experience for 4x4 Rock Crawling Enthusiasts who want to explore the Registered Trails offered in the state of Utah "Currently". The King Crawler App is looking to provide users with a Map Location Base Service for you to navigate to one of many trails provided. Other features being add Personlized account profile, message system, individual/group tracking, picture uploading, video uploading, manage accounts. Here's how to use the app effectively:
+The King Crawlers App is designed to provide a seamless experience for 4x4 Rock Crawling Enthusiasts who want to explore the Registered Trails offered in the state of Utah "Currently". The King Crawler App is looking to provide users with a Map Location Base Service for you to navigate to one of many trails provided. Other features being add Personlized account profile, message system, individual/group tracking, picture uploading, video uploading, friends, and account management. Here's how to use the app effectively:
   <br>** Some features of the app have not been implemented yet and will be in further Version of the app. Please refer to the [RoadMap](#roadmap) section to see what feature and version the app is currently on.</br>
 
 ### 1. Launch the App
