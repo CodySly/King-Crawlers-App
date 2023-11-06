@@ -30,6 +30,8 @@
   </p>
 </div>
 
+<!-- Disclaimer -->
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -56,6 +58,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#application-project-disclaimer">Application Project Disclaimer</a></li>
   </ol>
 </details>
 
@@ -104,30 +107,33 @@ URL:
 - [ ] Bug Fixes
   - [ ] Address any critical bugs reported by T&E users.
       
-- [ ] Version 1.1 (Future Versions)
+- [ ] Version 1.1 - 1.9 (Future Updates)
 
   - [ ] Add user registration and login.
-  - [ ] Add products to cart.
-  - [ ] View order History and status.
-  - [ ] Push notifications for updates and offers.
+  - [ ] Implement Personal Tracking
+  - [ ] Implement user profile managment.
+  - [ ] Enhanced Trails Detail View.
         
 - [ ] Bug Fixes
   - [ ] Continuously address reported bugs and issues. 
   
-- [ ] Version 2.0
+- [ ] Version 2.0 - 2.9 (Future Updates)
       
-  - [ ] Implement user profile managment.
-  - [ ] Enhanced Trails Detail View.
-  - [ ] Social media / Photo adding intergration 
+  - [ ] Implement group messaging.
+  - [ ] Implement a Events page.
+  - [ ] Social media / Photo adding intergration.
+  - [ ] Trail Reviews/ rating/ comments.
         
 - [ ] Bug Fixes
   - [ ] Ensure app stability and address any new issues.
 
 - [ ] Version 3.0 (Future)
       
-  - [ ] Implement real-time order tracking.
+  - [ ] Implement real-time group tracking.
   - [ ] Enhance security with biometric authentication.
   - [ ] Implement social media sharing options for products.
+  - [ ] Push notifications for updates and offers.
+  - [ ] Add ability to add videos to your profile.
         
 - [ ] Bug Fixes
   - [ ] Optimize the app for performance and responsiveness.
@@ -142,7 +148,7 @@ URL:
 
 ### Setting Up Xcode on an iOS Device
 
-Before you can use or contribute to the Fruiteria iOS project, you need to have Xcode installed on your iOS device. Here are the steps to set it up:
+Before you can use or contribute to the King Crawlers App project, you need to have Xcode installed on your iOS device. Here are the steps to set it up:
 
 1. **Install Xcode**:
    - Visit the App Store on your iOS device.
@@ -163,16 +169,16 @@ Before you can use or contribute to the Fruiteria iOS project, you need to have 
 
 ## Cloning the Repository to Contribute
 
-Now that you have Xcode set up, you can clone the Fruiteria iOS repository and start contributing. Here are the steps to clone the repository:
+Now that you have Xcode set up, you can clone the King Crawlers App repository and start contributing. Here are the steps to clone the repository:
 
 1. **Fork the Repository**:
-   - Open your web browser and visit the [Fruiteria-IOS GitHub repository](https://github.com/CodySly/Fruiteria-IOS).
+   - Open your web browser and visit the [King-Crawlers-App GitHub repository](https://github.com/CodySly/King-Crawlers-App).
    - Click the "Fork" button in the upper-right corner. This will create a copy of the repository in your GitHub account.
 
 2. **Clone the Forked Repository**:
    - Open Xcode on your iOS device.
    - Go to Source Control > Clone.
-   - In the "Clone Repository" dialog, enter the URL of your forked repository. It will be something like: `https://github.com/yourusername/Fruiteria-IOS.git`.
+   - In the "Clone Repository" dialog, enter the URL of your forked repository. It will be something like: `https://github.com/yourusername/King-Crawlers-App.git`.
    - Choose the local directory where you want to save the project.
    - Click "Clone."
 
@@ -194,12 +200,12 @@ Now that you have Xcode set up, you can clone the Fruiteria iOS repository and s
 7. **Create a Pull Request**:
    - Visit your forked repository on GitHub.
    - Click the "New Pull Request" button.
-   - Choose the base repository (the original Fruiteria-IOS repository) and the base branch (e.g., "main" or "develop").
+   - Choose the base repository (the original King Crawlers App repository) and the base branch (e.g., "main" or "develop").
    - Choose your forked repository and the branch you made changes in.
    - Provide a title and description for your pull request.
    - Click "Create Pull Request."
 
-That's it! You've successfully cloned the repository, made changes, and created a pull request to contribute to the Fruiteria iOS project.
+That's it! You've successfully cloned the repository, made changes, and created a pull request to contribute to the King Crawlers App project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,7 +266,7 @@ Remember that you'll need to repeat these steps each time you update the app in 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The Fruiteria iOS app is designed to provide a seamless experience for customers who want to explore the products offered by the Fruiteria ice cream shop, place orders, and manage their accounts. Here's how to use the app effectively:
+The King Crawlers App is designed to provide a seamless experience for 4x4 Rock Crawling Enthusiasts who want to explore the Registered Trails offered in the state of Utah "Currently". The King Crawler App is looking to provide users with a Map Location Base Service for you to navigate to one of many trails provided. Other features being add Personlized account profile, message system, individual/group tracking, picture uploading, video uploading, manage accounts. Here's how to use the app effectively:
   <br>** Some features of the app have not been implemented yet and will be in further Version of the app. Please refer to the [RoadMap](#roadmap) section to see what feature and version the app is currently on.</br>
 
 ### 1. Launch the App
@@ -349,6 +355,54 @@ Discord - codysly
 Project Link: [https://github.com/CodySly/King-Crawlers-App](https://github.com/CodySly/King-Crawlers-App)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Disclaimer -->
+
+# Application Project Disclaimer
+
+**Note:** This disclaimer is intended to inform users of our application (the "Application") about its limitations, responsibilities, and use. By using the Application, you agree to abide by the terms outlined in this disclaimer. If you do not agree with these terms, please refrain from using the Application.
+
+## No Warranties
+
+The Application is provided "as is" without any warranties, expressed or implied. We do not warrant or guarantee the accuracy, reliability, or completeness of the information or content provided within the Application. We disclaim all warranties, including but not limited to:
+
+- The fitness for a particular purpose.
+- Non-infringement.
+- Compatibility with your devices or systems.
+- Security and data integrity.
+
+## Limitation of Liability
+
+In no event shall we be liable for any direct, indirect, special, incidental, or consequential damages arising out of the use or inability to use the Application. This includes but is not limited to damages for loss of data, profits, business, or personal harm, even if we have been advised of the possibility of such damages.
+
+## Information Accuracy
+
+While we strive to provide accurate and up-to-date information within the Application, we do not guarantee the correctness of the content. Users are responsible for verifying any information obtained from the Application before making decisions based on that information.
+
+## Third-Party Content
+
+The Application may contain links to third-party websites, services, or content that are not owned or controlled by us. We do not endorse, warrant, or guarantee the accuracy of any third-party content, and we are not responsible for your interactions with such content or services.
+
+## Privacy and Data Security
+
+We are committed to safeguarding your privacy and the security of your data. Please refer to our Privacy Policy for information on how we collect, use, and protect your personal information.
+
+## Changes and Updates
+
+We reserve the right to modify, update, or discontinue the Application at any time without notice. We may also change the terms of this disclaimer. It is your responsibility to review this disclaimer periodically for any updates or changes.
+
+## Jurisdiction and Applicable Law
+
+This disclaimer shall be governed by and construed in accordance with the laws of [Your Jurisdiction]. Any disputes arising from the use of the Application shall be subject to the exclusive jurisdiction of the courts in [Your Jurisdiction].
+
+## Contact
+
+If you have any questions, concerns, or feedback regarding this disclaimer or the Application, please contact us at [Your Contact Information].
+
+[End of Disclaimer]
+
+By using the Application, you acknowledge and agree to the terms and conditions outlined in this disclaimer. Your use of the Application is subject to these terms, and any disputes arising from such use shall be governed by the applicable laws of your jurisdiction.
+
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
