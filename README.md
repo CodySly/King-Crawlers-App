@@ -16,7 +16,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/CodySly/Fruiteria-IOS">
+  <a href="https://github.com/CodySly/King-Crawlers-App">
   </a>
 
   ![KingCrawlersTransparent](https://github.com/CodySly/King-Crawlers-App/assets/130408252/3eb55fc4-4ac5-4a65-955a-d8e0ec0508b4)
@@ -39,7 +39,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Developed With</a></li>
+        <li><a href="#developed-with">Developed With</a></li>
       </ul>
     </li>
     <li><a href="#video-demo">Video Demo</a></li>
@@ -71,7 +71,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+<!-- Developed -->
 
 ### Developed With
 
@@ -95,15 +95,16 @@ URL:
 
 - [X] Version 1.0 (Current Verison)
 
-  - [X] Initial T&E release with basic functionality.
-  - [X] Display all products currently offered.
-  - [X] Viewable About Us page.
-  - [X] Current Fruiteria location via maps.
+  - [ ] Trails View Page.
+  - [ ] List of trails for initial T&E release.
+  - [ ] Map Location for each trail.
+  - [ ] Create a detailed view page for each trail listed.
+  - [ ] Initial T&E release with basic functionality.
         
-- [X] Bug Fixes
-  - [X] Address any critical bugs reported by T&E users.
+- [ ] Bug Fixes
+  - [ ] Address any critical bugs reported by T&E users.
       
-- [ ] Version 1.1 (Haulted development)
+- [ ] Version 1.1 (Future Versions)
 
   - [ ] Add user registration and login.
   - [ ] Add products to cart.
@@ -113,11 +114,11 @@ URL:
 - [ ] Bug Fixes
   - [ ] Continuously address reported bugs and issues. 
   
-- [ ] Version 2.0 (Haulted development)
+- [ ] Version 2.0
       
   - [ ] Implement user profile managment.
-  - [ ] Enhanced product Detail View.
-  - [ ] Secure payment processing methods via (Apple Pay)
+  - [ ] Enhanced Trails Detail View.
+  - [ ] Social media / Photo adding intergration 
         
 - [ ] Bug Fixes
   - [ ] Ensure app stability and address any new issues.
