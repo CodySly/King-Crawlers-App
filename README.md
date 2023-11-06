@@ -311,6 +311,8 @@ The Fruiteria iOS app is designed for a convenient and delightful customer exper
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
+<!--
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -325,7 +327,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
@@ -344,7 +345,7 @@ Cody Sly - codysburgess@gmail.com
 
 Discord - codysly
 
-Project Link: [https://github.com/CodySly/Fruiteria-IOS](https://github.com/CodySly/Fruiteria-IOS)
+Project Link: [https://github.com/CodySly/King-Crawlers-App](https://github.com/CodySly/King-Crawlers-App)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
