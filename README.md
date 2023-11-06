@@ -1,23 +1,11 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+
 
 
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -38,7 +26,7 @@
     Rock Crawler 4x4 Trails App
     <br />
     <br />
-    <a href="https://github.com/CodySly/Fruiteria-IOS"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/CodySly/King-Crawlers-App"><strong>Explore the docs »</strong></a>
   </p>
 </div>
 
@@ -363,23 +351,23 @@ Project Link: [https://github.com/CodySly/Fruiteria-IOS](https://github.com/Cody
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/CodySly/Fruiteria-IOS.svg?style=for-the-badge
-[contributors-url]: https://github.com/CodySly/Fruiteria-IOS/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/CodySly/Fruiteria-IOS.svg?style=for-the-badge
-[forks-url]: https://github.com/CodySly/Fruiteria-IOS/network/members
-[stars-shield]: https://img.shields.io/github/stars/CodySly/Fruiteria-IOS.svg?style=for-the-badge
-[stars-url]: https://github.com/CodySly/Fruiteria-IOS/stargazers
-[issues-shield]: https://img.shields.io/github/issues/CodySly/Fruiteria-IOS.svg?style=for-the-badge
-[issues-url]: https://github.com/CodySly/Fruiteria-IOS/issues
-[license-shield]: https://img.shields.io/github/license/CodySly/Fruiteria-IOS.svg?style=for-the-badge
-[license-url]: https://github.com/CodySly/Fruiteria-IOS/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/CodySly/King-Crawlers-App.svg?style=for-the-badge
+[contributors-url]: https://github.com/CodySly/King-Crawlers-App/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/CodySly/King-Crawlers-App.svg?style=for-the-badge
+[forks-url]: https://github.com/CodySly/King-Crawlers-App/network/members
+[stars-shield]: https://img.shields.io/github/stars/CodySly/King-Crawlers-App.svg?style=for-the-badge
+[stars-url]: https://github.com/CodySly/King-Crawlers-App/stargazers
+[issues-shield]: https://img.shields.io/github/issues/CodySly/King-Crawlers-App.svg?style=for-the-badge
+[issues-url]: https://github.com/CodySly/King-Crawlers-App/issues
+[license-shield]: https://img.shields.io/github/license/CodySly/King-Crawlers-App.svg?style=for-the-badge
+[license-url]: https://github.com/CodySly/King-Crawlers-App/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
-[swift.org]: https://github.com/CodySly/Fruiteria-IOS/assets/130408252/34528425-7395-4900-b4b5-2920bd5321b5
+[swift.org]: https://github.com/CodySly/King-Crawlers-App/assets/130408252/de6a6e51-141b-4ebc-b773-ff67204819c5
 [swift-url]: https://www.swift.org/documentation/
 [swiftui-url]: https://developer.apple.com/documentation/swiftui/
-[swiftui.org]: https://github.com/CodySly/Fruiteria-IOS/assets/130408252/b0816a30-d685-46f4-86e3-5523fe49d34a
-[xcode.com]: https://github.com/CodySly/Fruiteria-IOS/assets/130408252/376ed129-6fd0-4088-bfc5-e4d1d58cd232
+[swiftui.org]: https://github.com/CodySly/King-Crawlers-App/assets/130408252/e96232a4-cce4-44b9-a932-7653bdb60694
+[xcode.com]: https://github.com/CodySly/King-Crawlers-App/assets/130408252/157972ef-42a1-4bf7-a8c1-109774b27acb
 [xcode-url]: https://developer.apple.com/xcode/
  
