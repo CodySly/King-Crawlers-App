@@ -24,6 +24,7 @@
 		F27F5BC32ADF48C500286A22 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5BC22ADF48C500286A22 /* MapView.swift */; };
 		F27F5BC52ADF4A4000286A22 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5BC42ADF4A4000286A22 /* LocationView.swift */; };
 		F28353C62AE1966B00466947 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28353C52AE1966B00466947 /* LocationPreviewView.swift */; };
+		F2E2949A2AF996A900ED6BCF /* LocationDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E294992AF996A900ED6BCF /* LocationDetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		F27F5BC22ADF48C500286A22 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F27F5BC42ADF4A4000286A22 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		F28353C52AE1966B00466947 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		F2E294992AF996A900ED6BCF /* LocationDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				F27F5BC42ADF4A4000286A22 /* LocationView.swift */,
 				F24844262AE09FD700AB4FA6 /* LocationsListView.swift */,
 				F28353C52AE1966B00466947 /* LocationPreviewView.swift */,
+				F2E294992AF996A900ED6BCF /* LocationDetailedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				F27F5BC52ADF4A4000286A22 /* LocationView.swift in Sources */,
 				F218A8AF2AE0425200535B7F /* Location.swift in Sources */,
 				F2122CD82ADF2DF500A7A029 /* SideMenu.swift in Sources */,
+				F2E2949A2AF996A900ED6BCF /* LocationDetailedView.swift in Sources */,
 				F28353C62AE1966B00466947 /* LocationPreviewView.swift in Sources */,
 				F2122CDA2ADF2EF100A7A029 /* SideMenuContent.swift in Sources */,
 				F2122CC72ADF1ABF00A7A029 /* ContentView.swift in Sources */,

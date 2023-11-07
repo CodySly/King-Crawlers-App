@@ -13,6 +13,7 @@ struct Location: Identifiable, Equatable {
     let cityName: String
     let stateName: String
     let coordinates: CLLocationCoordinate2D
+    let coordinateNumbers: String
     let rating: String
     let description: String
     let requirement: String
