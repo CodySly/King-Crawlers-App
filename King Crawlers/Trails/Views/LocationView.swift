@@ -42,6 +42,9 @@ struct LocationView: View {
                 }
             }
         }
+        .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
+            LocationDetailedView(location: location)
+        }
     }
 }
 

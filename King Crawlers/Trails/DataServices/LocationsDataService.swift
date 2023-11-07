@@ -26,8 +26,8 @@ class LocationsDataService {
             coordinates: CLLocationCoordinate2D(latitude: 39.5917870, longitude: -110.9142930),
             coordinateNumbers: "39.5917870, -110.9142930 ",
             rating: "Three Star",
-            description: "Rugged rough trail with verious obsticles to transvers around. With every secound of the the trail.",
-            requirement: "Fill in the Blank with bullshit later",
+            description: "  Overall, a 4x4 rock crawling trail offers a thrilling and challenging experience for off-road enthusiasts who enjoy testing their driving skills and their vehicles' capabilities in extreme, natural settings. It's a sport that combines technical skill, vehicle customization, and a deep appreciation for the great outdoors.",
+            requirement: "Min: Max:",
             imageNames: [
                 "Pinnacle1",
                 "rockCrawler2",

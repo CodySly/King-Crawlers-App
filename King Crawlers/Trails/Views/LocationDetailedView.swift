@@ -9,12 +9,13 @@ import SwiftUI
 
 struct LocationDetailedView: View {
     
+    @EnvironmentObject private var vm: TrailLocationViewModel
     let location: Location
     
     
     var body: some View {
             VStack {
-                ScrollView {
+                ScrollView(showsIndicators: false) {
                     VStack {
                         
                         // String Call
@@ -31,6 +32,7 @@ struct LocationDetailedView: View {
                             .font(.footnote)
                             .fontWeight(.thin)
                             .padding(2)
+                            .foregroundColor(.red)
                         
                         // Image Call
                         
@@ -38,7 +40,8 @@ struct LocationDetailedView: View {
                             Image(imageName)
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
-                                .frame(width: 250, height: 100)
+                                .frame(width: 250, height: 200)
+                                .padding(-25)
                         }
                         
                         // String Call
@@ -47,9 +50,12 @@ struct LocationDetailedView: View {
                             .font(.footnote)
                             .fontWeight(.semibold)
                             .padding(2)
+                            .foregroundColor(.yellow)
                         
-                        Link ("Youtube", destination: URL(string: location.link)!)
+                        Link ("Trail Demo Video", destination: URL(string: location.link)!)
                             .font(.subheadline)
+                            .fontWeight(.bold)
+                            .tint(.blue)
                 
                         
                         // Trail Description
@@ -59,37 +65,58 @@ struct LocationDetailedView: View {
                             Text("Trial Description:")
                                 .font(.footnote)
                                 .fontWeight(.thin)
+                                .foregroundColor(.orange)
                             
                             Text(location.description)
                                 .font(.subheadline)
-                                .fontWeight(.semibold)
-                        }
-                        .padding()
+                                .fontWeight(.light)
                         
                          // Trail Requirements
                         
-                        VStack(alignment: .leading, spacing: 15) {
-                            
                             Text("Trail Requirements:")
                                 .font(.footnote)
                                 .fontWeight(.thin)
+                                .foregroundColor(.orange)
                             
                             Text(location.requirement)
                                 .font(.subheadline)
-                                .fontWeight(.semibold)
+                                .fontWeight(.light)
                         }
+                        .padding(25)
                     }
                     .padding(.vertical, 25)
                 }
                 //Framing for the Vstack
-                        .frame(width: 320, height: 525)
+                        .frame(width: 350, height: 725)
                         .background(Color(.systemBackground))
                         .cornerRadius(25)
                         .shadow(radius: 40)
+                        .overlay(backButton, alignment: .topLeading)
+                        
+
         }
     }
 }
 
 #Preview {
     LocationDetailedView(location: LocationsDataService.locations.first!)
+}
+
+extension LocationDetailedView {
+    
+    private var backButton: some View {
+        Button {
+            vm.sheetLocation = nil
+        } label: {
+            Image(systemName: "xmark")
+                .font(.headline)
+                .padding()
+                .foregroundColor(.primary)
+                .background(.thickMaterial)
+                .cornerRadius(10)
+                .shadow(radius: 4)
+                .padding()
+                
+        }
+    }
 }
