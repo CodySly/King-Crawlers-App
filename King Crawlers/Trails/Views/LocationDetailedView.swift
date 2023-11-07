@@ -15,85 +15,83 @@ struct LocationDetailedView: View {
     
     var body: some View {
             VStack {
-                ScrollView(showsIndicators: false) {
-                    VStack {
+            ScrollView(showsIndicators: false) {
+                VStack {
+                    
+                    // String Call
+                    
+                    Text(location.name)
+                        .font(.title)
+                        .fontWeight(.bold)
+                    
+                    Text(location.cityName + ", " + location.stateName)
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                    
+                    Text(location.coordinateNumbers)
+                        .font(.footnote)
+                        .fontWeight(.thin)
+                        .padding(2)
+                        .foregroundColor(.red)
+                    
+                    // Image Call
+                    
+                    if let imageName = location.imageNames.first {
+                        Image(imageName)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 250, height: 200)
+                            .padding(-25)
+                    }
+                    
+                    // String Call
+                    
+                    Text("Rating: " + location.rating)
+                        .font(.footnote)
+                        .fontWeight(.semibold)
+                        .padding(2)
+                        .foregroundColor(.yellow)
+                    
+                    Link ("Trail Demo Video", destination: URL(string: location.link)!)
+                        .font(.subheadline)
+                        .fontWeight(.bold)
+                        .tint(.blue)
+                    
+                    
+                    // Trail Description
+                    
+                    VStack(alignment: .leading, spacing: 15) {
                         
-                        // String Call
-                        
-                        Text(location.name)
-                            .font(.title)
-                            .fontWeight(.bold)
-                        
-                        Text(location.cityName + ", " + location.stateName)
-                            .font(.footnote)
-                            .fontWeight(.semibold)
-                        
-                        Text(location.coordinateNumbers)
+                        Text("Trial Description:")
                             .font(.footnote)
                             .fontWeight(.thin)
-                            .padding(2)
-                            .foregroundColor(.red)
+                            .foregroundColor(.orange)
                         
-                        // Image Call
-                        
-                        if let imageName = location.imageNames.first {
-                            Image(imageName)
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: 250, height: 200)
-                                .padding(-25)
-                        }
-                        
-                        // String Call
-                        
-                        Text("Rating: " + location.rating)
-                            .font(.footnote)
-                            .fontWeight(.semibold)
-                            .padding(2)
-                            .foregroundColor(.yellow)
-                        
-                        Link ("Trail Demo Video", destination: URL(string: location.link)!)
+                        Text(location.description)
                             .font(.subheadline)
-                            .fontWeight(.bold)
-                            .tint(.blue)
-                
+                            .fontWeight(.light)
                         
-                        // Trail Description
+                        // Trail Requirements
                         
-                        VStack(alignment: .leading, spacing: 15) {
-                            
-                            Text("Trial Description:")
-                                .font(.footnote)
-                                .fontWeight(.thin)
-                                .foregroundColor(.orange)
-                            
-                            Text(location.description)
-                                .font(.subheadline)
-                                .fontWeight(.light)
+                        Text("Trail Requirements:")
+                            .font(.footnote)
+                            .fontWeight(.thin)
+                            .foregroundColor(.orange)
                         
-                         // Trail Requirements
-                        
-                            Text("Trail Requirements:")
-                                .font(.footnote)
-                                .fontWeight(.thin)
-                                .foregroundColor(.orange)
-                            
-                            Text(location.requirement)
-                                .font(.subheadline)
-                                .fontWeight(.light)
-                        }
-                        .padding(25)
+                        Text(location.requirement)
+                            .font(.subheadline)
+                            .fontWeight(.light)
                     }
-                    .padding(.vertical, 25)
+                    .padding(25)
                 }
-                //Framing for the Vstack
-                        .frame(width: 350, height: 725)
-                        .background(Color(.systemBackground))
-                        .cornerRadius(25)
-                        .shadow(radius: 40)
-                        .overlay(backButton, alignment: .topLeading)
-                        
 
+            }
+            .padding(.vertical, 25)
+            .frame(width: 350, height: 725)
+            .background(Color(.systemBackground))
+            .cornerRadius(25)
+            .shadow(radius: 40)
+            .overlay(backButton, alignment: .topLeading)
         }
     }
 }
