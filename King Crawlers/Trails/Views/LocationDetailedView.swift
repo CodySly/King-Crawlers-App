@@ -43,6 +43,10 @@ struct LocationDetailedView: View {
                             .frame(width: 250, height: 200)
                             .padding(-25)
                     }
+                    Link ("Trail Demo Video", destination: URL(string: location.link)!)
+                        .font(.subheadline)
+                        .fontWeight(.bold)
+                        .tint(.blue)
                     
                     // String Call
                     
@@ -51,11 +55,19 @@ struct LocationDetailedView: View {
                         .fontWeight(.semibold)
                         .padding(2)
                         .foregroundColor(.yellow)
+                        .padding(.bottom, 5)
                     
-                    Link ("Trail Demo Video", destination: URL(string: location.link)!)
-                        .font(.subheadline)
-                        .fontWeight(.bold)
-                        .tint(.blue)
+                    Button {
+                        
+                    } label: {
+                        Text("Route Trail")
+                            .font(.footnote)
+                            .fontWeight(.bold)
+                            .padding()
+                            .background(.blue)
+                            .clipShape(Capsule())
+                        
+                    }
                     
                     
                     // Trail Description

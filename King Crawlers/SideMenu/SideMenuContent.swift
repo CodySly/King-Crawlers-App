@@ -10,12 +10,12 @@ import SwiftUI
 struct SideMenuContent: View {
     @Binding var presentSideMenu: Bool
     @StateObject private var vm = TrailLocationViewModel()
-    @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(Color(.systemBackground))
+                Color(Color(.systemGray))
+                    .ignoresSafeArea()
                 VStack {
                     Image("KingLogo1024")
                         .resizable()
@@ -151,13 +151,14 @@ struct SideMenuContent: View {
 extension SideMenuContent {
     private var backButton: some View {
         Button {
-            presentationMode.wrappedValue.dismiss()
+            presentSideMenu.toggle()
         } label: {
             Image(systemName: "xmark")
                 .font(.footnote)
                 .padding()
-                .foregroundColor(.primary)
+                .foregroundColor(.black)
                 .background(.thickMaterial)
+                .background(Color(.red))
                 .cornerRadius(10)
                 .shadow(radius: 4)
                 .padding()
