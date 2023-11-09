@@ -10,26 +10,21 @@ import SwiftUI
 struct SideMenuContent: View {
     @Binding var presentSideMenu: Bool
     @StateObject private var vm = TrailLocationViewModel()
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(Color(.darkGray))
+                Color(Color(.systemBackground))
                 VStack {
-                    VStack {
-                        HStack {
-                            Button {
-                                presentSideMenu.toggle()
-                            } label: {
-                                
-                                Image(systemName: "x.circle")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 30, height: 30)
-                                    .foregroundColor(.black)
-                                    .padding(.top)
-                            }
-                        }
-                    }
+                    Image("KingLogo1024")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 250, height: 250)
+                        .padding(.top, 25)
+                    
+
+                    
                     VStack {
                         HStack {
                             Text("Menu")
@@ -37,9 +32,11 @@ struct SideMenuContent: View {
                                 .font(.title)
                                 .fontWeight(.bold)
                         }
-                        .padding(.bottom, 50)
+                        .padding(.bottom, 25)
+                        //Spacer(minLength: 0)
                     }
-                    VStack(spacing: 45) {
+                    
+                    VStack(spacing: 50) {
                         NavigationLink(
                             destination: LocationView()
                                 .environmentObject(vm),
@@ -139,14 +136,32 @@ struct SideMenuContent: View {
                                     .frame(alignment: .leading)
                             }
                         }
-                        Spacer()
+                        Spacer(minLength: 25)
                     }
                 }
+                .overlay(backButton, alignment: .topTrailing)
             }
         }
     }
     @ViewBuilder
     private func SideMenuTopView() -> some View {
+    }
+}
+
+extension SideMenuContent {
+    private var backButton: some View {
+        Button {
+            presentationMode.wrappedValue.dismiss()
+        } label: {
+            Image(systemName: "xmark")
+                .font(.footnote)
+                .padding()
+                .foregroundColor(.primary)
+                .background(.thickMaterial)
+                .cornerRadius(10)
+                .shadow(radius: 4)
+                .padding()
+        }
     }
 }
 

@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                Color(Color(.systemGray))
+                Color(Color(.systemBackground))
                     .edgesIgnoringSafeArea(.all)
                 ScrollView {
                     VStack {
@@ -95,10 +95,11 @@ struct ContentView: View {
                     
                 }
                 SideMenu()
-                    .frame(width: 300, height: 600)
-                    .cornerRadius(25)
-                    .padding()
-                    .padding(.top, 100)
+                    .ignoresSafeArea()
+//                    .frame(width: 300, height: 600)
+//                    .cornerRadius(25)
+//                    .padding()
+//                    .padding(.top, 100)
                 LocationMenu()
                     .frame(width: 300, height: 600)
                     .cornerRadius(25)
@@ -114,7 +115,8 @@ struct ContentView: View {
             King_Crawlers.SideMenu(isShowing: $presentSideMenu,
                                    direction: .leading) {
                 SideMenuContent(presentSideMenu: $presentSideMenu)
-                    .frame(width: 300)
+                    .ignoresSafeArea()
+                    .edgesIgnoringSafeArea(.all)
             }
         }
         @ViewBuilder

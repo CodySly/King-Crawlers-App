@@ -17,7 +17,7 @@ struct SideMenu<RenderView: View>: View {
             if isShowing {
                 Color.black
                     .opacity(0.3)
-                    //.ignoresSafeArea()
+                    .ignoresSafeArea()
                     .onTapGesture {
                         isShowing.toggle()
                     }
