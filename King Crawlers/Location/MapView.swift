@@ -27,6 +27,7 @@ struct MapView: View {
             MapPin(coordinate: annotation.coordinate, tint: .blue)
         }
         .edgesIgnoringSafeArea(.all)
+        .mapStyle(.hybrid(elevation: .automatic))
         .onTapGesture { location in
             if let coordinate = mapViewCoordinate(from: location) {
                 let newAnnotation = CustomAnnotation(coordinate: coordinate)

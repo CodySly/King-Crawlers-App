@@ -22,6 +22,10 @@ struct LocationView: View {
                 MapMarker(coordinate: location.coordinates)
             })
                 .ignoresSafeArea()
+                .mapStyle(.imagery(elevation: .automatic))
+                
+               
+                
             
             
             VStack(spacing: 0) {
