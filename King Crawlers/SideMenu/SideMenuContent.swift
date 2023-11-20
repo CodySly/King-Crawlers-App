@@ -15,7 +15,7 @@ struct SideMenuContent: View {
         NavigationStack {
             ZStack {
                 Color(Color(.systemGray))
-                    .ignoresSafeArea()
+                  .ignoresSafeArea()
                 VStack {
                     Image("KingLogo1024")
                         .resizable()

@@ -7,52 +7,33 @@
 
 import SwiftUI
 import MapKit
+import CoreLocation
 
 struct MapView: View {
-    @State private var region = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194),  // Default location
-        span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
-    )
-
-    struct CustomAnnotation: Identifiable {
-        let id = UUID()
-        var coordinate: CLLocationCoordinate2D
-    }
-
-    @State private var annotations: [CustomAnnotation] = []
-    @State private var userTrackingMode: MapUserTrackingMode = .follow // Set the initial user tracking mode
+    
+    @EnvironmentObject private var vm: TrailLocationViewModel
+    @Namespace var mapScope
 
     var body: some View {
-        Map(coordinateRegion: $region, showsUserLocation: true, userTrackingMode: $userTrackingMode, annotationItems: annotations) { annotation in
-            MapPin(coordinate: annotation.coordinate, tint: .blue)
+        Map {
+            //            ForEach(vm.locations) { location in
+            //                Marker("Trails", coordinate: location.coordinates)
+            //            }
         }
-        .edgesIgnoringSafeArea(.all)
-        .mapStyle(.hybrid(elevation: .automatic))
-        .onTapGesture { location in
-            if let coordinate = mapViewCoordinate(from: location) {
-                let newAnnotation = CustomAnnotation(coordinate: coordinate)
-                annotations.append(newAnnotation)
+            .mapControls {
+                MapCompass()
+                MapUserLocationButton(scope: mapScope)
+                MapPitchToggle(scope: mapScope)
             }
+            .mapStyle(.imagery(elevation: .automatic))
+            .mapScope(mapScope)
         }
-    }
-
-    private func mapViewCoordinate(from point: CGPoint) -> CLLocationCoordinate2D? {
-        return mapView?.convert(point, toCoordinateFrom: nil)
-    }
-    
-    // This computed property gives access to the MapView
-    private var mapView: MKMapView? {
-        UIView.appearance(whenContainedInInstancesOf: [MKMapView.self]) as? MKMapView
-    }
 }
 
 
-
-
-
-
-
-
-#Preview {
-    MapView()
+struct MapView_Previews: PreviewProvider {
+    static var previews: some View {
+        MapView()
+            .environmentObject(TrailLocationViewModel())
+    }
 }

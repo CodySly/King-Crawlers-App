@@ -25,6 +25,9 @@ struct LocationsListView: View {
             }
         }
         .listStyle(PlainListStyle())
+        .frame(width: 285)
+        .shadow(color: Color.black.opacity(0.3),
+                radius: 20)
     }
 }
 
@@ -54,7 +57,7 @@ extension LocationsListView {
                 Text(location.cityName + ", " + location.stateName)
                     .font(.subheadline)
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(maxWidth: 300, alignment: .leading)
         }
     }
     

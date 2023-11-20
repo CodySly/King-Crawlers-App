@@ -94,6 +94,7 @@ struct ContentView: View {
                     
                     
                 }
+                
                 SideMenu()
                     .ignoresSafeArea()
 //                    .frame(width: 300, height: 600)

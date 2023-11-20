@@ -11,7 +11,6 @@ import CoreLocation
 
 struct LocationView: View {
     
-    
     @EnvironmentObject private var vm: TrailLocationViewModel
     
     var body: some View {
@@ -21,7 +20,7 @@ struct LocationView: View {
                 annotationContent: { location in
                 MapMarker(coordinate: location.coordinates)
             })
-                .ignoresSafeArea()
+                //.ignoresSafeArea()
                 .mapStyle(.imagery(elevation: .automatic))
                 
                
@@ -30,6 +29,7 @@ struct LocationView: View {
             
             VStack(spacing: 0) {
                 header
+                    .padding()
 
                 Spacer()
                 
@@ -48,6 +48,12 @@ struct LocationView: View {
         }
         .sheet(item: $vm.sheetLocation, onDismiss: nil) { location in
             LocationDetailedView(location: location)
+                .ignoresSafeArea(.all)
+                .presentationBackground(.ultraThinMaterial)
+                .presentationDetents([.height(500), .large])
+                .presentationBackgroundInteraction(
+                    .enabled(upThrough: .height(500)))
+            
         }
     }
 }
@@ -96,7 +102,10 @@ extension LocationView {
             }
         }
         
-        .background(.thickMaterial)
+        .background(
+            RoundedRectangle(cornerRadius: 25)
+            .fill(.ultraThinMaterial)
+        )
         .cornerRadius(25)
         .shadow(color: Color.black.opacity(0.3), radius: 20, x: 0, y: 15)
     }

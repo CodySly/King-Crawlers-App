@@ -7,17 +7,79 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "9DE169E8-EC91-4645-982D-4A82131A9325"
+            uuid = "1E71AE40-0C34-43AD-AFFB-9D6B25529443"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "King Crawlers/Trails/Views/LocationView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "1E71AE40-0C34-43AD-AFFB-9D6B25529443 - 87af9b48de8fc2ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "King_Crawlers.LocationsView_Previews.init() -&gt; King_Crawlers.LocationsView_Previews"
+                  moduleName = "King Crawlers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/codysly/Documents/King-Crawlers-App/King%20Crawlers/King%20Crawlers/Trails/Views/LocationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1E71AE40-0C34-43AD-AFFB-9D6B25529443 - 87af9b48de8fc28b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "King_Crawlers.LocationsView_Previews.init() -&gt; King_Crawlers.LocationsView_Previews"
+                  moduleName = "King Crawlers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/codysly/Documents/King-Crawlers-App/King%20Crawlers/King%20Crawlers/Trails/Views/LocationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1E71AE40-0C34-43AD-AFFB-9D6B25529443 - 87af9b48de8fc151"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "King_Crawlers.LocationsView_Previews.init() -&gt; King_Crawlers.LocationsView_Previews"
+                  moduleName = "King Crawlers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/codysly/Documents/King-Crawlers-App/King%20Crawlers/King%20Crawlers/Trails/Views/LocationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1E71AE40-0C34-43AD-AFFB-9D6B25529443 - 87af9b48de8fc1b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "King_Crawlers.LocationsView_Previews.init() -&gt; King_Crawlers.LocationsView_Previews"
+                  moduleName = "King Crawlers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/codysly/Documents/King-Crawlers-App/King%20Crawlers/King%20Crawlers/Trails/Views/LocationView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

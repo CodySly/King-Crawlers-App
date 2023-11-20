@@ -100,7 +100,7 @@ struct LocationDetailedView: View {
             }
             .padding(.vertical, 25)
             .frame(width: 350, height: 725)
-            .background(Color(.systemBackground))
+            .background(Color.white.opacity(0.5))
             .cornerRadius(25)
             .shadow(radius: 40)
             .overlay(backButton, alignment: .topLeading)
