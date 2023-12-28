@@ -20,7 +20,7 @@ struct SideMenuContent: View {
                     Image("KingLogo1024")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 250, height: 250)
+                        .frame(width: 150, height: 150)
                         .padding(.top, 25)
                     
 
@@ -139,7 +139,7 @@ struct SideMenuContent: View {
                         Spacer(minLength: 25)
                     }
                 }
-                .overlay(backButton, alignment: .topTrailing)
+                .overlay(backButton, alignment: .topLeading)
             }
         }
     }
@@ -161,7 +161,6 @@ extension SideMenuContent {
                 .background(Color(.red))
                 .cornerRadius(10)
                 .shadow(radius: 4)
-                .padding()
         }
     }
 }

@@ -8,26 +8,85 @@
 import SwiftUI
 
 struct tabView: View {
+   
+    /// <#Description#>
     var body: some View {
-        TabView {
-            ContentView()
-                .tabItem {
-                    Label("Home", systemImage: "house")
+        NavigationStack {
+            VStack {
+                HStack(spacing: 35) {
+                    NavigationLink {
+                        //ContentView()
+                    }
+                    
+                label: {
+                    VStack {
+                        Image(systemName: "house")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 30, height: 30)
+                            .foregroundColor(.black)
+                    }
                 }
-            Text("Messenger")
-                .tabItem {
-                    Label("Messenger", systemImage: "message")
-                        .foregroundColor(.red)
+                    NavigationLink {
+                        
+                    }
+                    
+                label: {
+                    VStack {
+                        Image(systemName: "house")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 30, height: 30)
+                            .foregroundColor(.black)
+                    }
                 }
-            AccountView()
-                .tabItem {
-                    Label("Account", systemImage: "person.crop.circle")
+                    NavigationLink {
+                        
+                    }
+                    
+                label: {
+                    VStack {
+                        Image(systemName: "plus.diamond")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 40, height: 40)
+                            .foregroundColor(.black)
+                    }
                 }
+                    NavigationLink {
+                        
+                    }
+                label: {
+                    VStack {
+                        Image(systemName: "message")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 30, height: 30)
+                            .foregroundColor(.black)
+                    }
+                }
+                    NavigationLink {
+                        
+                    }
+                label: {
+                    VStack{
+                        Image(systemName: "person")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 30, height: 30)
+                            .foregroundColor(.black)
+                    }
+                }
+                }
+            }
+            .frame(width: 375)
+            .frame(height: 50)
+            .background(Color(.lightGray))
+            .cornerRadius(25)
+            
         }
-        .accentColor(.red)
     }
 }
-
 #Preview {
     tabView()
 }

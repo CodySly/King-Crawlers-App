@@ -26,6 +26,7 @@
 		F27F5BC32ADF48C500286A22 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5BC22ADF48C500286A22 /* MapView.swift */; };
 		F27F5BC52ADF4A4000286A22 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F5BC42ADF4A4000286A22 /* LocationView.swift */; };
 		F28353C62AE1966B00466947 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28353C52AE1966B00466947 /* LocationPreviewView.swift */; };
+		F2DDE6F42B223D49003AEC55 /* topTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDE6F32B223D49003AEC55 /* topTabView.swift */; };
 		F2E2949A2AF996A900ED6BCF /* LocationDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E294992AF996A900ED6BCF /* LocationDetailedView.swift */; };
 		F2FB4D812B0BD086002FBFA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2FB4D802B0BD086002FBFA4 /* GoogleService-Info.plist */; };
 		F2FB4D842B0BD111002FBFA4 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F2FB4D832B0BD111002FBFA4 /* FirebaseAnalytics */; };
@@ -56,6 +57,7 @@
 		F27F5BC22ADF48C500286A22 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F27F5BC42ADF4A4000286A22 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		F28353C52AE1966B00466947 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		F2DDE6F32B223D49003AEC55 /* topTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topTabView.swift; sourceTree = "<group>"; };
 		F2E294992AF996A900ED6BCF /* LocationDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailedView.swift; sourceTree = "<group>"; };
 		F2FB4D802B0BD086002FBFA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				F21A859F2B0418A200C5C48A /* tabView.swift */,
+				F2DDE6F32B223D49003AEC55 /* topTabView.swift */,
 			);
 			path = TabView;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				F218A8B22AE0538200535B7F /* TrailLocationView.swift in Sources */,
 				F27F5BC52ADF4A4000286A22 /* LocationView.swift in Sources */,
 				F218A8AF2AE0425200535B7F /* Location.swift in Sources */,
+				F2DDE6F42B223D49003AEC55 /* topTabView.swift in Sources */,
 				F2122CD82ADF2DF500A7A029 /* SideMenu.swift in Sources */,
 				F21A85A02B0418A200C5C48A /* tabView.swift in Sources */,
 				F21A85A42B041A3500C5C48A /* AccountView.swift in Sources */,

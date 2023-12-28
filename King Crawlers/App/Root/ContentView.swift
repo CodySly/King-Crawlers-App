@@ -9,126 +9,68 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject private var vm = TrailLocationViewModel()
-    @State private var presentSideMenu = false
-    @State private var presentLocationMenu = false
+    @State private var isShowingSideMenu = false
+    @State private var isShowingLocationMenu = false
+    @State private var isDetailViewPresented = false
+    
     var body: some View {
         NavigationView {
             ZStack {
                 Color(Color(.systemGray))
                     .edgesIgnoringSafeArea(.all)
-                ScrollView {
-                    VStack {
-                        HStack(alignment: .center) {
-                            VStack {
-                                Image("KingCrawlersLogo")
-                                    .resizable()
-                                    .scaledToFill()
-                                    .frame(width: 300, height: 75)
-                            }
-                        }
-                    }
-                    .frame(width: 375, height: 100)
-                    .cornerRadius(25)
-                    
-                    Spacer(minLength: 5)
+                
+                VStack {
+                    Image("KingCrawlersLogo")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 300, height: 75)
+                        .padding(.bottom)
                     
                     VStack {
-                        HStack(spacing: 100) {
-                            Button {
-                                presentSideMenu.toggle()
-                            }
-                            
-                        label: {
-                            VStack {
-                                Image(systemName: "list.bullet.indent")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 20, height: 20)
-                                    .foregroundColor(.black)
-                                
-                                Text("Menu")
-                                    .font(.footnote)
-                                    .fontWeight(.bold)
-                                    .foregroundColor(.white)
-                            }
+                        topTabView(isShowingSideMenu: $isShowingSideMenu, isShowingLocationMenu: $isShowingLocationMenu)
+                            .frame(width: 375, height: 50)
+                            .cornerRadius(25)
+                        
+                        ScrollView {
+                            Image("Pinnacle1")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .frame(width: 200, height: 200)
                         }
-                            Button {
-                               presentLocationMenu.toggle()
-                            }
-                        label: {
-                            VStack {
-                                Image(systemName: "mappin.and.ellipse")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 20, height: 20)
-                                    .foregroundColor(.black)
-                                
-                                Text("Location")
-                                    .font(.footnote)
-                                    .fontWeight(.bold)
-                                    .foregroundColor(.white)
-                            }
-                        }
-                            Button {
-                                
-                            }
-                        label: {
-                            VStack{
-                                Image(systemName: "person")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .frame(width: 20, height: 15)
-                                    .foregroundColor(.black)
-                                
-                                Text("Account")
-                                    .font(.footnote)
-                                    .fontWeight(.semibold)
-                                    .foregroundColor(.white)
-                            }
-                        }
-                        }
+                        
+                        tabView()
+                            .frame(width: 375, height: 50)
+                            .cornerRadius(25)
                     }
-                    .frame(width: 375, height: 50)
-                    .background(Color(.lightGray))
-                    .cornerRadius(25)
-                    
-                    
+                    .navigationBarHidden(true)
                 }
+                .overlay(
+                    NavigationLink(destination: LocationMenuContent(presentLocationMenu: $isShowingLocationMenu)) {
+                        EmptyView()
+                    },
+                    alignment: .bottom
+                )
+                .overlay(
+                    NavigationLink(destination: SideMenuContent(presentSideMenu: $isShowingSideMenu)) {
+                        EmptyView()
+                    },
+                    alignment: .topTrailing
+                )
+                SideMenu(isShowing: $isShowingSideMenu, direction: .leading) { SideMenuContent(presentSideMenu: $isShowingSideMenu)}
                 
-                SideMenu()
-                    .ignoresSafeArea()
-//                    .frame(width: 300, height: 600)
-//                    .cornerRadius(25)
-//                    .padding()
-//                    .padding(.top, 100)
-                LocationMenu()
-                    .frame(width: 300, height: 600)
-                    .cornerRadius(25)
-                    .padding()
-                    .padding(.top, 100)
-                
-            }
-            
-        }
-    }
-        @ViewBuilder
-        private func SideMenu() -> some View {
-            King_Crawlers.SideMenu(isShowing: $presentSideMenu,
-                                   direction: .leading) {
-                SideMenuContent(presentSideMenu: $presentSideMenu)
-                    .ignoresSafeArea()
-                    .edgesIgnoringSafeArea(.all)
-            }
-        }
-        @ViewBuilder
-        private func LocationMenu() -> some View {
-            King_Crawlers.LocationMenu(isShowing: $presentLocationMenu,
-                                       direction: .leading) {
-                LocationMenuContent(presentLocationMenu: $presentLocationMenu)
-                    .frame(width: 300)
+                LocationMenu(isShowing: $isShowingLocationMenu, direction: .leading) { LocationMenuContent(presentLocationMenu:
+                $isShowingLocationMenu)}
             }
         }
     }
+}
+
+
+
+
+
+
+
 #Preview {
     ContentView()
 }
